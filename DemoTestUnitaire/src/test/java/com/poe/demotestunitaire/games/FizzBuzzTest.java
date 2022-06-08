@@ -8,11 +8,22 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FizzBuzzTest {
     
     @Test
-    public void FizzBuzzTest() {
+    public void FizzBuzzTestFizz() {
         assertEquals("fizz", FizzBuzz.play(3));
-        assertEquals("buzz", FizzBuzz.play(5));
-        assertEquals("fizzbuzz", FizzBuzz.play(15));
-        assertEquals("7", FizzBuzz.play(7));
     }
     
+    @Test
+    public void FizzBuzzTestBuzz() {
+        assertEquals("buzz", FizzBuzz.play(5));
+    }
+    
+        @Test
+    public void FizzBuzzTestFizzBuzz() {
+        assertEquals("fizzbuzz", FizzBuzz.play(15));
+    }
+    
+    @Test
+    public void FizzBuzzTestOtherNumber() {
+        assertEquals("7", FizzBuzz.play(7));
+    }
 }
