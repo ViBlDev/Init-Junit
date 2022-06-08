@@ -92,6 +92,29 @@ public class CalculatorTest {
         
         assertEquals(2, result);   
     }
-    
-    
+        @Test
+    public void testDivideWithIntResult(){
+        Calculator calculator = new Calculator();
+        
+        int result = calculator.divide(10, 5);
+        
+        assertEquals(2, result);        
+    }
+    @Test
+    public void testDivideWithFloatResult(){
+        Calculator calculator = new Calculator();
+        
+        int result = calculator.divide(10, 3);
+        System.out.println(result);
+        
+        assertEquals(10/3, result);
+    }
+    @Test
+    public void testDivideWithDividerAsZero(){
+        Calculator calculator = new Calculator();
+                
+        assertThrows(ArithmeticException.class, () -> {
+           calculator.divide(10, 0);
+        });
+    }
 }

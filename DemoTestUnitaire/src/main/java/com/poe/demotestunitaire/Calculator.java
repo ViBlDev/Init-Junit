@@ -18,9 +18,8 @@ public class Calculator {
         else 
         return b = a;
     }
-    
-    public float divide (float a, float b){
-    return a / b;
+    public int divide(int dividende, int diviseur){
+        return dividende/diviseur;
     }
     
 }
