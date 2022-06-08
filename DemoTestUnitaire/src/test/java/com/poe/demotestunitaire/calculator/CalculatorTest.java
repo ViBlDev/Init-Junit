@@ -5,6 +5,8 @@ package com.poe.demotestunitaire.calculator;
 
 
 import com.poe.demotestunitaire.Calculator;
+import java.util.ArrayList;
+import java.util.Arrays;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -116,5 +118,20 @@ public class CalculatorTest {
         assertThrows(ArithmeticException.class, () -> {
            calculator.divide(10, 0);
         });
+    }
+    @Test
+    public void testGetNombresImpairs(){
+        Calculator calculator = new Calculator();
+        
+        ArrayList<Integer> result = calculator.getNombresImpairs(5);
+        
+        //Ce sont des exemples que j'ai essayés, ils font sensiblement la même chose
+        //les utiliser ensemble n'apporte rien en plus.
+        assertEquals(3, result.size());
+        
+        assertTrue(result.contains(3));
+        assertFalse(result.contains(2));
+        
+        assertTrue(result.containsAll(Arrays.asList(1, 3, 5)));
     }
 }

@@ -1,6 +1,8 @@
 
 package com.poe.demotestunitaire;
 
+import java.util.ArrayList;
+
 
 public class Calculator {
     
@@ -20,6 +22,18 @@ public class Calculator {
     }
     public int divide(int dividende, int diviseur){
         return dividende/diviseur;
+    }
+    
+    public ArrayList<Integer> getNombresImpairs(int max){
+        ArrayList<Integer> result = new ArrayList<>();
+        
+        for (int i=0; i<=max; i++){
+            if (i%2 != 0){
+                result.add (i);
+            }
+        }
+        
+        return result;
     }
     
 }

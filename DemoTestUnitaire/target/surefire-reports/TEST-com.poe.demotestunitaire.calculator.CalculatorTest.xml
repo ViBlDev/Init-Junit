@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotestunitaire.calculator.CalculatorTest" time="0.029" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotestunitaire.calculator.CalculatorTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3500664565314483502\surefirebooter4547707312767663904.jar C:\Users\Administrateur\AppData\Local\Temp\surefire3500664565314483502 2022-06-08T09-42-53_061-jvmRun1 surefire3074814027052075555tmp surefire_012857881092342023684tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire18216119668429339503\surefirebooter4399110840166044897.jar C:\Users\Administrateur\AppData\Local\Temp\surefire18216119668429339503 2022-06-08T11-02-13_693-jvmRun1 surefire5479999678136718229tmp surefire_014212160423446234192tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.poe.demotestunitaire.calculator.CalculatorTest#testDivideWithDividerAsZero"/>
+    <property name="test" value="com.poe.demotestunitaire.calculator.CalculatorTest#testGetNombresImpairs"/>
     <property name="surefire.test.class.path" value="C:\Users\Administrateur\Documents\Jakarta EE\Test_Unitaire\DemoTestUnitaire\target\test-classes;C:\Users\Administrateur\Documents\Jakarta EE\Test_Unitaire\DemoTestUnitaire\target\classes;C:\Users\Administrateur\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Administrateur\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrateur\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Administrateur"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3500664565314483502\surefirebooter4547707312767663904.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire18216119668429339503\surefirebooter4399110840166044897.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+8-LTS-111"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testDivideWithDividerAsZero" classname="com.poe.demotestunitaire.calculator.CalculatorTest" time="0.021"/>
+  <testcase name="testGetNombresImpairs" classname="com.poe.demotestunitaire.calculator.CalculatorTest" time="0.017"/>
 </testsuite>
