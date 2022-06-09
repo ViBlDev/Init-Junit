@@ -17,28 +17,43 @@ public class Distributeur {
     public void remplirLeStock(){
         
         stock.add(new Produit(1, "soda", 1, 5));
-        stock.add(new Produit(2, "cafe", 0.80, 5));
-        stock.add(new Produit(3, "barre cereale", 0.50, 5));
+        stock.add(new Produit(2, "cafe", 2, 5));
+        stock.add(new Produit(3, "barre cereale", 3, 5));
     }
     
     public void insererArgent (double montant){
         credit += montant;
     }
     
-    public void commanderUnProduit(int id){
+    public boolean stockSuffisant(int idProduit, int quantiteAAcheter){
         
-        for(Produit produit: stock){
-            if(produit.getId() == id){
+        Produit produit = getProduit(idProduit);
+        return produit.getQuantite() >= quantiteAAcheter;
+    }
+    
+        public boolean creditSuffisant(int idProduit, int quantiteAAcheter){
+            
+        Produit produit = getProduit(idProduit);
+        double cout = quantiteAAcheter * produit.getPrix();
+        return credit >= cout;
+    }
+        
+    public void commanderUnProduit(int idProduit){
+        
+        
+        if(stockSuffisant(idProduit, 1) && creditSuffisant(idProduit, 1)){
+        Produit produit = getProduit(idProduit);
                
                 
-                if(credit>= produit.getPrix() && produit.getQuantite()>1){
+                
                     produit.setQuantite(produit.getQuantite()-1);
                     credit = credit - produit.getPrix();
                 }
-            }
-            
-        }
     }
+            
+            
+        
+    
 
     public void recupererArgentRestant(){
         
@@ -68,6 +83,7 @@ public class Distributeur {
        }
        return new Produit(); // temporaire
    }
-    
-    
 }
+    
+    
+
