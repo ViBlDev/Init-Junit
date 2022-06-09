@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotestunitaire.string.PalindromeTest" time="0.004" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotestunitaire.distributeur.DistributeurTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire8806605066224532468\surefirebooter11397708550260586383.jar C:\Users\Administrateur\AppData\Local\Temp\surefire8806605066224532468 2022-06-09T12-22-13_236-jvmRun1 surefire12285624898602215664tmp surefire_011073517072313075412tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire9794844145106879459\surefirebooter1649420852937564165.jar C:\Users\Administrateur\AppData\Local\Temp\surefire9794844145106879459 2022-06-09T12-22-24_372-jvmRun1 surefire18056766543642760526tmp surefire_01984672192443225973tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.poe.demotestunitaire.distributeur.DistributeurTest#testCommanderProduit"/>
     <property name="surefire.test.class.path" value="C:\Users\Administrateur\Documents\Jakarta EE\Test_Unitaire\DemoTestUnitaire\target\test-classes;C:\Users\Administrateur\Documents\Jakarta EE\Test_Unitaire\DemoTestUnitaire\target\classes;C:\Users\Administrateur\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Administrateur\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrateur\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Administrateur\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Administrateur"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire8806605066224532468\surefirebooter11397708550260586383.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire9794844145106879459\surefirebooter1649420852937564165.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+8-LTS-111"/>
@@ -57,10 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="isPalindromeKAYak" classname="com.poe.demotestunitaire.string.PalindromeTest" time="0"/>
-  <testcase name="isPalindromeKayak" classname="com.poe.demotestunitaire.string.PalindromeTest" time="0"/>
-  <testcase name="isPalindromeAvecDesAccents" classname="com.poe.demotestunitaire.string.PalindromeTest" time="0"/>
-  <testcase name="isPalindromeBonjour" classname="com.poe.demotestunitaire.string.PalindromeTest" time="0.001"/>
-  <testcase name="isPalindromeChaineVide" classname="com.poe.demotestunitaire.string.PalindromeTest" time="0"/>
-  <testcase name="isPalindromeAvecEspaces" classname="com.poe.demotestunitaire.string.PalindromeTest" time="0"/>
+  <testcase name="testCommanderProduit" classname="com.poe.demotestunitaire.distributeur.DistributeurTest" time="0.019"/>
 </testsuite>

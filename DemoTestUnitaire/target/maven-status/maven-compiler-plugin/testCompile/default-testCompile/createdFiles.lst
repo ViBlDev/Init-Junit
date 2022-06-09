@@ -1,2 +1,4 @@
+com\poe\demotestunitaire\games\FizzBuzzTest.class
 com\poe\demotestunitaire\string\PalindromeTest.class
+com\poe\demotestunitaire\distributeur\DistributeurTest.class
 com\poe\demotestunitaire\calculator\CalculatorTest.class

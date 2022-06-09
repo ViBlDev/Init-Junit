@@ -1,2 +1,5 @@
+com\poe\demotestunitaire\games\FizzBuzz.class
+com\poe\demotestunitaire\distributeur\Produit.class
 com\poe\demotestunitaire\Calculator.class
+com\poe\demotestunitaire\distributeur\Distributeur.class
 com\poe\demotestunitaire\string\Palindrome.class
